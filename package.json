@@ -1,0 +1,15 @@
+{
+  "name": "katz-meme-discord-bot",
+  "version": "1.0.0",
+  "description": "A Discord bot that responds to /katz-meme <name> by sending memes from the Katcipis Golden Meme Repository.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.4.5",
+    "node-fetch": "^3.3.2"
+  }
+}
